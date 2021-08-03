@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#poster {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  height: 100%;
+  max-height: 395px;
+  background-color: rgba(234, 239, 242, 1);
+  height: auto;
+  object-fit: cover;
+}
+
+#description {
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80%;
+}
+
+input {
+  margin: 0 auto;
+}
+
+#error {
+  margin-top: 20px;
+  color: #e74c3c;
+  font-family: Eczar;
+  font-size: 18px;
+  text-align: center;
+}
